@@ -1,0 +1,25 @@
+body{
+    background-color: #f1f1f1;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link
+{
+    color: red;
+}
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: grey;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+
+.mynav{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1 !important;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
