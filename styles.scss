@@ -1,6 +1,8 @@
 body{
     background-color: #f1f1f1;
 }
+
+/*=================NAVBAR================*/
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link
 {
     color: rgb(254, 33, 70);
@@ -24,16 +26,34 @@ body{
     letter-spacing: 1px;
 }
 
+/*=================HOME DIV================*/
 
 .home-div{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .details{
+        margin-top: 170px;
+    }
 
     .nameSpan{
         color: rgb(254, 33, 70);
+    }
+
+    .placeholder{
+        width: 500px;
+        height: 600px;
+        background-color: green;
+        color: white;
+        font-size: 50px;
+        text-align: center;
     }
 }
 
