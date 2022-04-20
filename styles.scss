@@ -36,3 +36,30 @@ body{
         color: rgb(254, 33, 70);
     }
 }
+
+.foo{
+    float: right;
+    position: absolute;
+    top: 120px;
+    right: 300px;
+}
+
+h3{
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .foo{
+        float: none;
+        position: inherit;
+        top: auto;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 50px !important;
+    }
+}
